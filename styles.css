@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 4px;
+  margin: 0px;
+  color: crimson;
+  font-family: 'Inter';
+  font-size: 42px;
+  background-color: #fff;
+
+}
+
+.header {
+    padding: 5px 5px;
+    height: 89px;
+    text-align: left;
+    color: #fff;
+    font-family: 'Inter', Regular;
+    border-bottom: 4px solid #fff;
+    overflow: hidden;
+}
+
+/* topnav bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  /*color: #f2f2f2;*/
+  font-family: 'Inter';
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #fff;
+  color: crimson;
+}
+
+/* Change color on active link */
+.active {
+  background-color: #04AA6D;
+}
+
+.header h1{
+    font-size: 50px;
+    font-family: 'Inter';
+}
+
+.main h1{
+    font-size:14vw;
+    font-family: 'Inter';
+}
+
+/* gallery settings */
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+}
+
+.footer {
+  color: #fff;
+  text-align: right;
+  padding: 10px;
+}
