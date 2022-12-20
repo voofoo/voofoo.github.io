@@ -56,7 +56,7 @@ body {
 }
 
 .main h1{
-    font-size: 14vw;
+    font-size: 2vw;
     font-family: 'Inter';
 }
 
@@ -90,4 +90,5 @@ body {
   color: #fff;
   text-align: right;
   padding: 10px;
+  font-size: 8vw;
 }
