@@ -51,12 +51,12 @@ body {
 }
 
 .header h1{
-    font-size: 50px;
+    font-size: 7vw;
     font-family: 'Inter';
 }
 
 .main h1{
-    font-size:14vw;
+    font-size: 14vw;
     font-family: 'Inter';
 }
 
