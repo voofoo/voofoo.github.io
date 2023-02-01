@@ -14,7 +14,7 @@ body {
 
 .header {
     padding: 5px 5px;
-    height: 89px;
+    height: 90px;
     text-align: left;
     color: #fff;
     font-family: 'Inter', Regular;
@@ -60,6 +60,11 @@ body {
     font-family: 'Inter';
 }
 
+.content {
+    min-height: calc(100vh - 120px);
+    /* 80px header + 40px footer = 120px  */
+}
+
 /* gallery settings */
 .gallery {
   display: flex;
@@ -87,6 +92,7 @@ body {
 }
 
 .footer {
+  height: 60px;
   color: #fff;
   text-align: right;
   padding: 10px;
