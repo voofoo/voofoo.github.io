@@ -61,7 +61,8 @@ body {
 }
 
 .content {
-    min-height: calc(100vh - 90px);
+    min-height: 100vh;
+    /*min-height: calc(100vh - 90px);*/
     /* 90px header (+ 60px footer = 150px)  */
 }
 
