@@ -51,7 +51,7 @@ body {
 }
 
 .header h1{
-    font-size: 8vw;
+    font-size: 42px;
     font-family: 'Inter';
 }
 
@@ -61,8 +61,8 @@ body {
 }
 
 .content {
-    min-height: calc(100vh - 120px);
-    /* 80px header + 40px footer = 120px  */
+    min-height: calc(100vh - 150px);
+    /* 90px header + 60px footer = 150px  */
 }
 
 /* gallery settings */
@@ -97,4 +97,6 @@ body {
   text-align: right;
   padding: 10px;
   font-size: 8vw;
+  border-top: 4px solid #fff;
+  overflow: hidden;
 }
