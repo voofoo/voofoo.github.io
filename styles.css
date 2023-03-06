@@ -11,6 +11,7 @@ body {
     font-family: 'Helvetica';
     font-size: 42px;
     background-color: #fff;
+
 }
 
 .header {
@@ -58,6 +59,10 @@ fa-code {
 
 .main h1{
     font-size: 4vw;
+}
+
+main fa-code {
+    color: crimson;
 }
 
 .content {
